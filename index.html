@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-success text-white text-center w-25 p-3 rounded-pill mt-1 ">
+    <h2>My Daily To Do List</h2>
+    </div>
+    <br>
+    <div class="border border-success p-2 mx-auto">
+        <div class="form-container">
+            <div class="row gx-3 gy-2 align-items-center">
+                <div class="col">
+                    <input type="text" class="form-control" id="taskId" placeholder="ID" readonly>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="taskName" placeholder="Task Name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="taskDescription" placeholder="Task Description">
+                </div>
+                <div class="col">
+                    <select class="form-control" id="taskStatus">
+                        <option value="In Progress">In Progress</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <button id="addTaskButton" class="btn btn-success">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="task-list-container">
+
+        <hr>
+        <table id="taskList" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="task.js"></script>
+</body>
+</html>
