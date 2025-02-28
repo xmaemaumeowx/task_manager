@@ -38,7 +38,7 @@ task-manager/
     * `id` (number): Unique identifier for the task.
     * `title` (string): Title of the task.
     * `description` (string): Description of the task.
-    * `status` (string): Status of the task (e.g., "In Progress", "Completed"). **Note:** This is `status` (string) instead of `completed` (boolean) as specified in the provided code.
+    * `status` (string): Status of the task (e.g., "In Progress", "Completed"). 
 
 ### TaskManager Class
 
