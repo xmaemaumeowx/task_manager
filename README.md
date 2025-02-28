@@ -4,7 +4,7 @@ Markdown
 
 This project is a simple Task Manager web application built using TypeScript and HTML. It allows users to add tasks, mark them as complete, and view a list of all tasks.
 
-**Note:** This implementation deviates from the original requirements regarding the `completed` property. It uses a `status` (string) property instead, as reflected in the provided code.
+**Note:** This implementation deviates from the original requirements regarding the `completed` property. It uses a `status` (string) property instead, as reflected in the code.
 
 ## Requirements
 
